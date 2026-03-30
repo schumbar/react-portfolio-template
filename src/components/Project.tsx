@@ -4,6 +4,7 @@ import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
 import mock04 from '../assets/images/mock04.png';
 import mock05 from '../assets/images/mock05.png';
+import mock06 from '../assets/images/mock06.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,7 +18,7 @@ function Project() {
                 <p>FloodScout is a serverless Next.js application that uses Google Gemini AI to instantly analyze flood-damaged buildings from a single photograph. It provides comprehensive structural insights, hazard detection, repair cost estimates, and confidence scoring in under 10 seconds — built in response to the Swat Valley flood disaster.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/schumbar/CMPE255_Team_Project" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/schumbar/CMPE255_Team_Project/b09f5f313af468c458ef84df8461dd9b0463806f/screenshots/wordcloud.png" className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/schumbar/CMPE255_Team_Project" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/schumbar/CMPE255_Team_Project" target="_blank" rel="noreferrer"><h2>Research Paper Summarization</h2></a>
                 <p>A Flask-based web application that summarizes complex PDF documents using NLP and machine learning models, designed to parse and condense extensive research paper text into high-precision summaries. The app is deployed live on Heroku.</p>
             </div>
