@@ -16,50 +16,50 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Nov 2022 - Dec 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Senior Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Nokia - Sunnyvale, CA</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Golang, Docker, Kubernetes, Helm, gRPC, Microservices, CI/CD, Distributed Systems, Backend Development, Alarm Monitoring Systems
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Oct 2021 - Nov 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Software Configuration Management Engineer II</h3>
+            <h4 className="vertical-timeline-element-subtitle">Exact Sciences - Redwood City, CA</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              C#, Azure DevOps Server, CI/CD Pipelines, Git, Perforce, Salesforce, Informatica, Release Management, Automation, Build Systems, DevOps
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="Sep 2020 - Sep 2021"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Software Configuration Management Engineer I</h3>
+            <h4 className="vertical-timeline-element-subtitle">Exact Sciences - Redwood City, CA</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Python, Shell Scripting, Azure DevOps, CI/CD, Build Validation, Release Automation, Git, Workflow Optimization
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="Aug 2019 - Sep 2020"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Release Engineering Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Genomic Health Inc. - Redwood City, CA</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Azure DevOps Server, Git, TFVC, CI/CD Pipelines, Release Management, Build Monitoring, Version Control, Documentation
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
