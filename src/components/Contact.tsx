@@ -36,10 +36,10 @@ function Contact() {
       console.log(templateParams);
       emailjs
         .send(
-          "service_hqm2i0a",
-          "template_n391axg",
+          process.env.REACT_APP_EMAILJS_SERVICE_ID!,
+          process.env.REACT_APP_EMAILJS_TEMPLATE_ID!,
           templateParams,
-          "-IEX0ct0BBeRIHh6L",
+          process.env.REACT_APP_EMAILJS_PUBLIC_KEY!,
         )
         .then(
           (response: any) => {
